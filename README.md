@@ -1,4 +1,4 @@
-# node-chunking [![Build Status](https://secure.travis-ci.org/zneo99/node-chunking.png)](http://travis-ci.org/zneo99/node-chunking)
+# node-chunking [![Build Status](https://travis-ci.org/zneo99/node-chunking.png?branch=master)](https://travis-ci.org/zneo99/node-chunking)
 
 A simple Chunking tool (NLP) for node.js based on idea of nltk.
 
