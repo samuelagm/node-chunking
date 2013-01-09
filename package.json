@@ -1,0 +1,30 @@
+{
+  "name": "node-chunking",
+  "description": "A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)",
+  "version": "0.0.1",
+  "author": "Thuong Dinh <thuongdinh99@gmail.com>",
+  "maintainers": [
+    "zneo99 <thuongdinh99@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zneo99/node-chunking.git"
+  },
+  "keywords": [
+    "nlp",
+    "nltk",
+    "chunking",
+    "tools"
+  ],
+  "dependencies": {
+    "xregexp": "2.0.0",
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "vows": "0.7.x"
+  },
+  "main": "./lib/chunking",
+  "scripts": {
+    "test": "vows test/*-test.js --spec -i"
+  }
+}
